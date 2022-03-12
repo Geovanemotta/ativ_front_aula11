@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap');
+
+* {
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0; 
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}   
+
+
+header {
+    background-color: #222222;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    padding: 15px;
+    padding-left: 35px;
+}
+
+
+nav ul {
+    display: flex;
+    gap: 25px;
+}
+
+
+nav li {
+    list-style: none;
+    cursor: pointer;
+    color: #F3F3F3;
+    font-size: 24px;
+    padding-right: 35px;
+}
+
+section {
+    background-color: #e2dfdfbe;
+    display: flex;
+    justify-content: center;   
+}
+
+
+.containerMain {
+    display: flex;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    gap: 15px;
+    justify-content: space-between;
+}
+
+
+.delivery {
+    background-image: url('../img/delivery.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 30px;
+}
+
+
+.delivery h2 {
+    height: 600px;
+    width: 900px;
+}
+
+
+.delivery span {
+    color: #FC200C;
+}
+
+
+.delivery h2 {
+    color: #FFFFFF;
+}
+
+
+.cardapio {
+    height: 600px;
+    width: 900px;
+    background-color: #FFFFFF;
+    border-radius: 10px;   
+}
+
+
+.cardapio__title {
+    text-align: center;
+    color: #FC200C;
+    margin-top: 30px;
+    font-size: 35px;
+}
+
+
+.cardapio__itens {
+    display: flex;
+    margin: 150px;
+    justify-content: space-between;
+    margin-top: 13%;  
+}
+
+
+.cardapio__topfive {
+    font-size: 25px;
+    line-height: 45px;
+    font-weight: bold;
+    margin-bottom: 10px; 
+}
+
+.cardapio__img img {
+    height: 200px;
+    margin-top: 10px;
+}
+
+
+
+footer {
+    background-color: #222222;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 150px;
+    padding: 15px;
+    padding-right: 35px;
+}
+
+.footer__itens {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding-left: 35px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    gap: 15px;
+    cursor: pointer;
+}
+
+
+
