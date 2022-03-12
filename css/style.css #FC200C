@@ -68,12 +68,12 @@ section {
 
 
 .delivery span {
-    color: #FC200C;
+    color: #FFFFFF;
 }
 
 
 .delivery h2 {
-    color: #FFFFFF;
+    color: #FC200C;
 }
 
 
